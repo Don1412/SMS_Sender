@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  mysql:
+    image: 'don1412/sms_sender'
+    environment:
+      - MARIADB_ROOT_PASSWORD=laravelpass
+    ports:
+      - '3307:3306'
+    volumes:
+      - /home/don/docker/mysql/db:/bitnami
