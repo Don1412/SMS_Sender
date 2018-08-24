@@ -1,0 +1,3 @@
+FROM php:7.2.9-fpm
+
+COPY . /var/www/SMS_Sender
