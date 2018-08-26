@@ -1,4 +1,4 @@
-FROM php:7.2.9-fpm
+FROM php:7.2-fpm
 
 COPY . /var/www/SMS_Sender
 RUN chown -R www-data:www-data /var/www/SMS_Sender/storage
